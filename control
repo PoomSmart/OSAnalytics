@@ -3,7 +3,9 @@ Name: OSAnalytics
 Version: 0.0.1
 Architecture: iphoneos-arm
 Description: Enables various enhancements within stock iOS crashlogs
-Maintainer: daniel
-Author: daniel
+Maintainer: daniel & PoomSmart
+Author: daniel & PoomSmart
 Section: Tweaks
-Depends: mobilesubstrate
+Depends: mobilesubstrate, firmware (>= 14.0)
+Depiction: https://poomsmart.github.io/repo/depictions/osanalytics.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/osanalytics.json

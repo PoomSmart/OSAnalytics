@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>Filter</key>
-	<dict>
-		<key>Executables</key>
-		<array>
-			<string>ReportCrash</string>
-		</array>
-	</dict>
-</dict>
+    <dict>
+        <key>Filter</key>
+        <dict>
+            <key>Bundles</key>
+            <array>
+                <string>com.apple.OSAnalytics</string>
+                <string>com.apple.CrashReporter</string>
+                <string>com.apple.osanalytics.OSAnalytics</string>
+                <string>com.apple.CrashReporterSupport</string>
+            </array>
+            <key>Executables</key>
+            <array>
+                <string>ReportCrash</string>
+            </array>
+        </dict>
+    </dict>
 </plist>
